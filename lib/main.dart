@@ -36,15 +36,10 @@ class MyAppWidget extends StatelessWidget {
         height: 50,
         color: Colors.red,
         alignment: Alignment.center,
-        child: Text(
-          "Meu primeiro texto!",
-          style: TextStyle(
-            color: Colors.white,
-            fontWeight: FontWeight.bold,
-            fontSize: 18
-          ),
-          textAlign: TextAlign.center,
-        ),
+        child: Icon(
+          Icons.add_a_photo,
+          color: Colors.white,
+        )
       ),
     );
   }
